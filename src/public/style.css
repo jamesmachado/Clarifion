@@ -1,0 +1,108 @@
+:root {
+    --dark-blue: #252f3d;
+    --green: #85BF55;
+    --medium-green: #59AE43;
+    --white: #FFFFFF;
+    --ice: #E3EEFF;
+    --gris: #4D5254;
+    --light-gris: #969696;
+    --gray: #CFCFCF;
+    --light-gray: #FAFAFA;
+    --black: #000000;
+    --graphite: #333333;
+    --blue: #2C7EF8;
+    --blue-gris: #37465A;
+    --blue-white: #EDF3FD;
+    --yellow: #FFC000;
+    --red: #F82C2C;
+  
+    --manrope: 'Manrope', sans-serif;
+  
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: var(--manrope);
+  }
+  
+  body {
+    background-color: var(--white);
+    counter-reset: enumerar;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    max-width: 1500px;
+  }
+  
+  .clr-white {
+    color: var(--white);
+  }
+  
+  .clr-gris {
+    color: var(--gris);
+  }
+  
+  .clr-light-gris {
+    color: var(--light-gris);
+  }
+  
+  .clr-black {
+    color: var(--black);
+  }
+  
+  .clr-green {
+    color: var(--green);
+  }
+  
+  .clr-blue {
+    color: var(--blue);
+  }
+  
+  .clr-blue-gris {
+    color: var(--blue-gris);
+  }
+  
+  .clr-yellow {
+    color: var(--yellow);
+  }
+  
+  .clr-red {
+    color: var(--red);
+  }
+  
+  .clr-graphite {
+    color: var(--graphite);
+  }
+  
+  .bg-dark-blue {
+    background-color: var(--dark-blue);
+  }
+  
+  .bg-blue {
+    background-color: var(--blue);
+  }
+  
+  .bg-blue-white {
+    background-color: var(--blue-white);
+  }
+  
+  .bg-ice {
+    background-color: var(--ice);
+  }
+  
+  .bg-medium-green {
+    background-color: var(--medium-green);
+  }
+  
+  .bg-light-gray {
+    background-color: var(--light-gray);
+  }
+  
+  .uppercase {
+    text-transform: uppercase;
+  }

@@ -1,0 +1,41 @@
+.frame_1484578044 {
+    margin-top: 1.5rem;
+    order: 7;
+  }
+  
+  .frame_1484578044 picture img {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+  }
+  
+  .frame_1484578044 div p {
+    font-weight: 400;
+    font-size: 0.75rem;
+    text-align: initial;
+  }
+  
+  .frame_1484578044 div p strong {
+    font-weight: 700;
+    font-size: 0.75rem;
+  }
+  
+  @media screen and (width >=64rem) {
+    .frame_1484578044 {
+      margin-left: 2.5rem;
+    }
+  
+    .frame_1484578044 picture img {
+      width: 5.5rem;
+      height: 5.5rem;
+      margin-top: -0.25rem;
+    }
+  
+    .frame_1484578044 div p {
+      font-size: 1rem;
+    }
+  
+    .frame_1484578044 div p strong {
+      font-size: 1rem;
+    }
+  }

@@ -1,0 +1,46 @@
+.frame_1484578063 {
+    width: 100%;
+    height: auto;
+    padding: 0 1.25rem;
+    margin-top: 3.125rem;
+  }
+  
+  .frame_8 {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .frame_8 h1 {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.8rem;
+    text-align: center;
+  }
+  
+  .frame_8 p {
+    margin-top: 1.5rem;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    text-align: center;
+  }
+  
+  /* > 600px*/
+  @media screen and (width > 37.5rem) {
+    .frame_1484578063 {
+      padding-left: 3.96rem;
+      padding-right: 3.96rem;
+    }
+  }
+  
+  /* >= 1024px */
+  @media screen and (width >=64rem) {
+    .frame_1484578063 {
+      padding-left: 4.5rem;
+      padding-right: 4.5rem;
+      margin-top: -1.5rem;
+    }
+  }

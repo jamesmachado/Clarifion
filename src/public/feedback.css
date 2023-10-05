@@ -1,0 +1,52 @@
+.frame_1484578050 {
+    display: none;
+  }
+  
+  @media screen and (width >=37.5rem) {
+    .frame_1484578050 {
+      padding: 1.5rem;
+      margin-top: 1.5rem;
+      display: flex;
+      flex-flow: row wrap;
+    }
+  
+    .frame_1484578045 {
+      width: 100%;
+      display: flex;
+      flex-flow: row wrap;
+    }
+  
+    .frame_1484578045 picture {
+      display: block;
+      width: 4rem;
+      height: 100%;
+    }
+  
+    .frame_1484578045 .name {
+      margin-left: 0.75rem;
+      width: 70%;
+    }
+  
+    .frame_1000004527 {
+      margin-top: 0.75rem;
+      font-weight: 700;
+      font-size: 0.875rem;
+      line-height: 0.875rem;
+    }
+  
+    .feedback {
+      margin-top: 1.125rem;
+      font-weight: 400;
+      font-size: 1rem;
+      line-height: 1.5rem;
+  
+    }
+  
+  }
+  
+  @media screen and (width >=75rem) {
+    .feedback {
+      width: 32.93rem;
+      word-wrap: break-word;
+    }
+  }

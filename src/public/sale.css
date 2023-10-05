@@ -1,0 +1,55 @@
+.frame_1000004688 {
+    width: 100%;
+    height: auto;
+    margin-top: 1.5rem;
+    border-radius: 0.625rem;
+    padding: 0.75rem 1rem;
+    order: 5;
+  }
+  
+  .frame_1000004688 div {
+    width: 100%;
+    padding: 0;
+    display: flex;
+  }
+  
+  .frame_1000004688 div iconify-icon {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .frame_1000004688 div p {
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.225rem;
+    text-align: initial;
+  }
+  
+  .frame_1000004688 div p b {
+    font-size: 0.875rem;
+  }
+  
+  /* >=1024px*/
+  @media screen and (width>=64rem) {
+    .frame_1000004688 {
+      order: 5;
+      margin-left: 2.5rem;
+    }
+  
+    .frame_1000004688 div iconify-icon {
+      font-size: 2rem;
+    }
+  
+  }
+  
+  @media screen and (width >=75rem) {
+  
+    .frame_1000004688 div p {
+      width: 100%;
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+    }
+  }
+  

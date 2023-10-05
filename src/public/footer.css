@@ -1,0 +1,67 @@
+.frame_1484578064 {
+    margin-top: 2rem;
+    padding: 1.25rem;
+  }
+ 
+  .frame_1484578064 p {
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1.05rem;
+  }
+ 
+ 
+  .frame_1484578065 {
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+ 
+  .frame_lock {
+    margin-top: 1rem;
+  }
+ 
+  .frame_lock p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  .frame_lock p iconify-icon {
+    font-size: 0.75rem;
+    margin-top: -0.25rem;
+  }
+ 
+  @media screen and (width >=37.5rem) {
+    .frame_1484578064 {
+      padding: 0 4.5rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+ 
+    .frame_1484578065 span {
+      margin: 0 1rem;
+    }
+  }
+ 
+  /* >= 1024px */
+  @media screen and (width >=64rem) {
+    .frame_1484578064 {
+      padding-left: 4.5rem;
+      padding-right: 4.5rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+ 
+    .frame_lock p {
+      font-size: 1rem;
+    }
+ 
+    .frame_lock p iconify-icon {
+      font-size: 1rem;
+    }
+ 
+  }

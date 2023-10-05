@@ -1,0 +1,88 @@
+.frame_1484578044 {
+    width: 100%;
+    height: auto;
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  
+  :is(.frame_1484578035, .frame_1484578036, .frame_1484578037, .frame_1484578038) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  
+  }
+  
+  :is(.frame_1484578036, .frame_1484578035) div {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    text-align: center;
+  }
+  
+  .frame_1484578036 div {
+    border: 2px solid var(--blue);
+    color: var(--white);
+  }
+  
+  .frame_1484578035 div {
+    border: 1px solid var(--blue);
+    color: var(--blue);
+  }
+  
+  .tick-cirle {
+    font-size: 1.5rem;
+  }
+  
+  .status-description {
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 0.825rem;
+  }
+  
+  .frame_1484578036 .status-description {
+    font-weight: bold;
+  }
+  
+  /* >= 1200px*/
+  @media screen and (width >=64rem) {
+    .frame_1484578044 {
+      margin-top: 3.75rem;
+    }
+  
+    :is(.frame_1484578035, .frame_1484578036, .frame_1484578037, .frame_1484578038) {
+      flex-direction: row;
+    }
+  
+    :is(.frame_1484578035, .frame_1484578036, .frame_1484578037, .frame_1484578038):has(div, iconify-icon) {
+      width: 25%;
+      justify-content: start;
+    }
+  
+    :is(.frame_1484578037, .frame_1484578038) iconify-icon {
+      font-size: 2.5rem;
+    }
+  
+    :is(.frame_1484578036, .frame_1484578035) div {
+      width: 2.5rem;
+      height: 2.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .status-description {
+      font-size: 1.25rem;
+      line-height: 1.375rem;
+    }
+  
+    :is(.frame_1484578035, .frame_1484578036, .frame_1484578037, .frame_1484578038) p:before {
+      counter-increment: enumerar;
+      content: 'Step ' counter(enumerar) ' : ';
+    }
+  
+  
+  }

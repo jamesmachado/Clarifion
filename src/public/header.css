@@ -1,0 +1,102 @@
+header {
+    padding-bottom: 1.25rem;
+  }
+  
+  :is(header, .frame_1000004787, .frame_1484578058) {
+    width: 100%;
+    height: auto;
+  }
+  
+  :is(.frame_1000004787, .frame_1484578058) {
+    padding: 0.625rem 1.25rem;
+  }
+  
+  .frame_1000004787 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .frame_1484578058 {
+    margin-top: 1.25rem;
+    display: flex;
+  }
+  
+  .layer>p {
+    width: 100%;
+    font-family: var(--manrope);
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 0.75rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .layer>p:where(.l2, .l3, .l4) {
+    display: none;
+  }
+  
+  iconify-icon {
+    margin-right: 0.5rem;
+    font-size: 1.375rem;
+  }
+  
+  .Clarifion_Logo {
+    width: 100%;
+  }
+  
+  .Clarifion_Logo img {
+    width: 6.66rem;
+    height: 1.25rem;
+  }
+  
+  .frame_1484578056 {
+    width: 6.3125rem;
+    height: 1rem;
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  :is(.mcafee, .norton) {
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* > 600px*/
+  @media screen and (width > 37.5rem) {
+    :is(.frame_1000004787, .frame_1484578058) {
+      padding-left: 3.96rem;
+      padding-right: 3.96rem;
+    }
+  }
+  
+  /* >=1024px */
+  @media screen and (width >=64rem) {
+    :is(.frame_1000004787, .frame_1484578058) {
+      padding-left: 4.5rem;
+      padding-right: 4.5rem;
+    }
+  
+    :is(.left, .right) {
+      display: none;
+    }
+  
+    .layer {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: space-evenly;
+    }
+  
+    .layer>p:where(.l2, .l3, .l4) {
+      display: flex;
+    }
+  
+    .Clarifion_Logo {
+      width: 80%;
+    }
+  
+  
+  
+  }
